@@ -1,0 +1,160 @@
+
+body{
+    width: 1200px;
+    height: 1000px;
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 10px;
+    
+}
+
+
+
+header{
+    width: 1200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(220, 68, 68);
+}
+
+#headerLogo{
+    width: 350px;
+    border: none;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+#navLista{
+    width: 800px;
+    border: none;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+h1{
+    border: none;
+    text-align: center;
+    text-decoration: underline;
+}
+
+header div nav{
+    border: none;
+}
+
+header div nav ul li{
+    list-style: none;
+    float: left;
+}
+
+header div nav ul{
+    width: 550px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+main{
+    width: 1200px;
+    height: 700px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(241, 241, 206);
+   
+}
+
+main section article{
+    width: 800px;
+    height: 160px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main aside{
+border: 2px solid black;
+border-radius: 20px;
+height: 651.250px;
+width: 300px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content:center;
+background-color: rgb(220, 68, 68);
+}
+
+.contenedor1{
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: rgb(77, 141, 209);
+}
+
+main aside form{
+    margin: 40px;
+    text-align: center;
+}
+
+.contenedor1{
+    text-align: center;
+}
+
+
+
+
+
+footer{
+    width: 1200px;
+    height: 90px;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2px auto;
+    background-color: rgb(220, 68, 68);
+}
+
+
+
+h2{
+    text-align: left;
+    margin: 20px;
+}
+
+
+
+/*Pseudoclases*/
+
+a:hover{
+    font-size: 30px;
+}
+
+a:visited {
+    color:white;
+}
+
+footer img:hover {
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
