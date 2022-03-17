@@ -2,11 +2,26 @@ body {
   background-color: white;
 }
 
-nav {
-  border: 2px solid #ca1b1b;
+nav ul {
+  border: 2px solid #d155bc;
+  font-family: Smooch Sans;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 a:hover {
-  color: #ca1b1b;
+  color: #d155bc;
 }
 /*# sourceMappingURL=styles.css.map */
