@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgba(rgb(226, 214, 40), $alpha: 0.5);
+}
+
+body div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center; 
+    border-radius: 16px;
+}
+
+body div div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center; 
+    margin: 15px;
+}
+
+#catalogoImagenes{
+    background-color:rgba(57, 57, 218, 0.5);
+}
+
+#catalogoImagenes div div img:hover{
+    width: 200px;
+}

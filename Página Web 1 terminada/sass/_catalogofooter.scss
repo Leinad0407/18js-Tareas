@@ -1,0 +1,18 @@
+footer{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px auto;
+    background-color: rgba(255, 34, 34, 0.8);
+    border-radius: 16px;
+}
+
+footer div{
+    margin-top: 15px;
+}
+
+footer button{
+    margin: 30px auto;
+}
