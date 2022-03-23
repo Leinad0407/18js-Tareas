@@ -108,11 +108,30 @@ body div div {
 }
 
 #catalogoImagenes div div img:hover {
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
   width: 200px;
 }
 
 footer {
-  width: 250px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: rgba(255, 34, 34, 0.8);
+  border-radius: 16px;
+}
+
+aside {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -123,19 +142,26 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 5px auto;
-  background-color: rgba(255, 34, 34, 0.8);
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 20px auto;
+  border: 2px solid rgba(255, 34, 34, 0.9);
   border-radius: 16px;
+  padding: 35px;
+  background-color: rgba(255, 34, 34, 0.9);
 }
 
-footer div {
-  margin-top: 15px;
+aside img {
+  margin-top: 8px;
 }
 
-footer button {
-  margin: 30px auto;
+aside button {
+  margin-top: 20px;
+}
+
+aside button:hover {
+  border: 5px solid black;
+  border-radius: 16px;
 }
 /*# sourceMappingURL=stylescatalogo.css.map */
