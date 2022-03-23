@@ -1,0 +1,58 @@
+main{
+    display: flex;
+    flex-direction:row;
+    border:rgba(rgb(226, 214, 40), $alpha: 0.8);
+    border-radius: 16px;
+    align-items: center;
+    margin-top: 10px;
+    background-color: rgba(rgb(226, 214, 40), $alpha: 0.5);
+}
+
+#circulo{
+    box-sizing: border-box;
+    border: 2px solid rgba($color: rgb(57, 57, 218), $alpha: 1);
+    background-color: white ;
+    border-radius: 50%;
+    font-size: 18px;
+    text-align: center;
+    padding: 12px;
+
+}
+
+
+article section{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px;
+    background-color: white;
+    border: 2px solid rgba($color: rgb(57, 57, 218), $alpha: 1);
+    border-radius: 16px;
+    padding: 6px;
+}
+
+#comentarios{
+    background-color:rgba(rgb(226, 214, 40), $alpha: 0.2);
+    border: none;
+    background-color: rgb(130, 130, 232);
+    padding: 18px;
+    
+}
+
+main aside div{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid rgba($color: rgb(57, 57, 218), $alpha: 1);
+    border-radius: 16px;
+    background-color: white;
+    margin: 2px;
+    padding: 0px 3px;
+}
+
+#opinion{
+    text-align: center;
+}

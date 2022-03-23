@@ -1,0 +1,24 @@
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px auto;
+    border: 2px solid rgba(255, 34, 34, 0.9);
+    border-radius: 16px;
+    padding: 35px;
+    background-color:rgba(255, 34, 34, 0.9);
+}
+
+aside img{
+    margin-top: 8px;
+}
+
+aside button{
+    margin-top: 20px;
+}
+
+aside button:hover{
+    border: 5px solid black;
+    border-radius: 16px;
+}
